@@ -40,8 +40,8 @@ console.log({duplicates});
 let arr5 = ["the", "way", "x", 4];
 let sent= "way"
 const sentIndex= arr5.indexOf(sent);
-if (sent){console.log({sent})}
-else{console.log("The search was not founf")}
+if (sent==arr5[1]){console.log({sent})}
+else{console.log("The search was not found")}
 
 
 
